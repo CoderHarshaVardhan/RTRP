@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Your Shopping Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Product 1</td>
+                    <td>₹19.99</td>
+                    <td>2</td>
+                    <td>₹39.98</td>
+                </tr>
+                <tr>
+                    <td>Product 2</td>
+                    <td>₹24.99</td>
+                    <td>1</td>
+                    <td>₹24.99</td>
+                </tr>
+                <!-- Add more rows for additional products -->
+            </tbody>
+        </table>
+        <div class="total">
+            Total: ₹64.97
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+        <button class="go-back-btn" 
+        onclick="window.location.href='catalog.html'">Go Back</button>
+
+    </div>
+</body>
+
+</html>

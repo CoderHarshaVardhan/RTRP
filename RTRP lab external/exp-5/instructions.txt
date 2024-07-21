@@ -1,0 +1,2 @@
+copy the mysql-connector-j-8.0.33.jar file in
+C:\Program Files\Java\jre-1.8\lib\ext  directory

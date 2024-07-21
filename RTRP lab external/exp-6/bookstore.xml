@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore [
+    <!ELEMENT bookstore (book+)>
+    <!ELEMENT book (title, author, price)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+]>
+<bookstore>
+    <book>
+        <title>Introduction to XML</title>
+        <author>John Doe</author>
+        <price>39.95</price>
+    </book>
+    <book>
+        <title>Web Development Basics</title>
+        <author>Jane Smith</author>
+	  <price>39.95</price>
+    </book>
+    <!-- Add more book entries as needed -->
+</bookstore>
